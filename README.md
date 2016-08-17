@@ -4,4 +4,8 @@ Template for creating an application in typescript that builds on [roc-package-w
 
 ## Install
 
-`$ roc init rocjs/roc-package-web-app-react`
+`$ roc init naycon/roc-template-web-app-react-typescript`
+
+or
+
+`$ roc new my-project naycon/roc-template-web-app-react-typescript`
