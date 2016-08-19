@@ -2,7 +2,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import * as React from 'react';
 import { Component, PropTypes } from 'react';
-import * as Helmet from 'react-helmet';
+import Helmet from 'react-helmet';
 
 import { Navbar } from '../../components/navbar';
 import { Footer } from '../../components/footer';
