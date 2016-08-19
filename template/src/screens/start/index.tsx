@@ -67,6 +67,14 @@ export default class Start extends Component<void, void> {
             Hot reloading will also be enabled by default.
           </p>
 
+          <h4>Testing</h4>
+          <p>
+            There's one example test provided out of the box at <strong>src/redux/clicker.test.ts</strong>.
+            It uses mocha and expect. All files under 'src' that end in *.test.ts
+            or *.test.tsx will be picked up and run by karma. To run the tests, use:
+          </p>
+          <pre>roc test</pre>
+
           <h4>Use the Roc commandline</h4>
           For helpful information use <code>--help</code> along with your comand.
           You can see the available documentation for this package <a href="https://github.com/rocjs/roc-package-web-app-react/blob/packages/roc-package-web-app-react/docs/">here</a>.
