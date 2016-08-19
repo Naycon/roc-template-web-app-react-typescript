@@ -4,8 +4,8 @@ import * as React from 'react';
 import { Component, PropTypes } from 'react';
 import Helmet from 'react-helmet';
 
-import { Navbar } from '../../components/navbar';
-import { Footer } from '../../components/footer';
+import { Navbar } from '../../components/navbar/index';
+import { Footer } from '../../components/footer/index';
 
 import * as styles from './style.scss';
 
