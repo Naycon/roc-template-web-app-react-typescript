@@ -9,6 +9,9 @@ module.exports = {
     build: {
       reducers: 'src/reducers/reducers.ts',
       routes: 'src/routes/index.tsx',
+      {{#if_eq addPolyfills true}}
+      resources: ['polyfills/polyfills.js'],
+      {{/if_eq}}
     },
     test: {
       web: {

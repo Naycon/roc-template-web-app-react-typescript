@@ -41,6 +41,10 @@
             "type": "confirm",
             "message": "Use decorator classes for reducers?",
             "default": true
+        },
+        "addPolyfills": {
+            "type": "confirm",
+            "message": "Add es5 & es6 polyfills?"
         }
     },
     "filters": {
@@ -50,6 +54,7 @@
         "src/reducers/clickerClass.ts": "useReducerDecorator",
         "src/reducers/clickerClass.test.ts": "useReducerDecorator",
         "src/reducers/selectors.ts": "useReselect",
+        "src/polyfills/polyfills.js": "addPolyfills",
         "src/LICENSE": "license === 'MIT'"
     },
     "completionMessage": "To get started:\n\n{{#unless inPlace}}  cd {{destDirName}}\n{{/unless}}  npm install\n  npm run dev\n\n  It will open your default browser when ready.\n  You can change this by setting 'dev.browsersync.options.open' to 'false' in roc.config.js"
