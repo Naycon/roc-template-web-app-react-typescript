@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { Component } from 'react';
 
-import Clicker from '../../components/clicker/index';
+import Clicker from '../../containers/clicker';
 
 import * as styles from './style.scss';
 

@@ -4,12 +4,17 @@
         "sourceMap": true,
         "noImplicitAny": true,
         //"strictNullChecks": true,
-        "module": "es6",
-        "target": "es6",
+        "module": "es2015",
+        "target": "es2015",
         "jsx": "preserve",
-        "experimentalDecorators": true
-    },
-    "include": [
-        "src/**"
-    ]
+        {{#if_eq useReducerDecorator true}}
+        "experimentalDecorators": true,
+        {{/if_eq}}
+        // Needed to resolve react imports due to bug in typescript 2.0.x, see https://github.com/Microsoft/TypeScript/issues/11103
+        "moduleResolution": "node",
+        "types": [
+            "mocha",
+            "redux-thunk"
+        ]
+    }
 }

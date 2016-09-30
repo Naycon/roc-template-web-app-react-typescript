@@ -1,13 +1,13 @@
 module.exports = {
   settings: {
     runtime: {
-      applicationName: '{{ rocTitleName }}',
-      port: {{ rocPort }},
+      applicationName: '{{ title }}',
+      port: {{ port }},
       serve: ['public', 'build/client'],
       favicon: 'favicon.png',
     },
     build: {
-      reducers: 'src/redux/reducers.ts',
+      reducers: 'src/reducers/reducers.ts',
       routes: 'src/routes/index.tsx',
     },
     test: {

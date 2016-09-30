@@ -8,12 +8,11 @@
     "roc",
     "react",
     "universal",
-    "isomoprhic",
+    "isomorphic",
     "redux",
     "typescript"
   ],
   "dependencies": {
-      "roc": "^1.0.0-rc",
-      "chalk": "~1.1.1"
+      "roc": "^1.0.0-rc11"
   }
 }

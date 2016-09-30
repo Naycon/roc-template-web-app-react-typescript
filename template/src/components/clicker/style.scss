@@ -1,14 +1,22 @@
 .main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
     margin-top: 20px;
-    height: 90px;
-    width: 300px;
     color: #2a7e8e;
     font-size: 28px;
     border: 1px solid #fff;
     padding: 20px;
 
+    .clicker {
+        display: flex;
+        align-items: center;
+    }
+
     input {
-        float: left;
+        // float: left;
         margin-left: 20px;
         margin-top: 10px;
         width: 50px;
@@ -16,14 +24,17 @@
     }
 
     button {
-        float: left;
+        // float: left;
         margin-left: 20px;
         padding: 4px;
         height: 50px;
         width: 80px;
     }
+
+    p {
+        font-size: 16px;
+        color: #333;
+        margin-top: 20px;
+    }
 }
 
-.clicker {
-    float: left;
-}
