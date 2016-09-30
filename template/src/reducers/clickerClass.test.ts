@@ -8,6 +8,6 @@ describe('clicker', () => {
     }
     it('should increment correctly when no state is provided', () => {
         const result = reducer(undefined, getClickAction(1));
-        expect(result).toBe(1);
+        expect(result.clicker).toBe(1);
     })
 });
